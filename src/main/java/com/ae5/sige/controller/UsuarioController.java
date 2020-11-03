@@ -27,7 +27,7 @@ import org.apache.commons.logging.LogFactory;
 @RestController
 @RequestMapping("/AgendaE5")
 @CrossOrigin(origins = "http://localhost:4200")
-public class UsuarioController {
+public class UsuarioController{
 
 	private static final Log LOG = LogFactory.getLog(UsuarioController.class);
 	private final UsuarioService usuarioService;
